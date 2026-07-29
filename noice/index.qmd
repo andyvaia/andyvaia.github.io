@@ -1,0 +1,9 @@
+---
+title: "Noice"
+subtitle: "A statistical blog to make sense of the world"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+page-layout: full
+---

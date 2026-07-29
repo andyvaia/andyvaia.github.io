@@ -1,0 +1,11 @@
+---
+title: "Teaching (TA)"
+---
+
+<!-- PLACEHOLDER: one row per course you've taught or assisted -->
+
+| Date | Course/Venue | Title/Topic |
+|---|---|---|
+| [PLACEHOLDER: e.g. Spring 2025] | [PLACEHOLDER: course code and name, institution] | [PLACEHOLDER: your role / topics covered] |
+
+: Teaching {tbl-colwidths="[20,40,40]"}

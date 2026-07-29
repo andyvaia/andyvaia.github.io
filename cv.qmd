@@ -1,0 +1,79 @@
+---
+title: "CV"
+---
+
+<!-- PLACEHOLDER: populate cv_data/*.csv with real entries -->
+
+This page is generated from the CSV files in `cv_data/`. To update the CV, edit those
+files — no HTML editing needed.
+
+<!-- PLACEHOLDER: generate cv.pdf separately and drop it in the project root to enable
+     this download button; delete the button if you don't want a static copy. -->
+
+[Download PDF](cv.pdf){.btn .btn-outline-secondary .btn-sm role="button"}
+
+```{r}
+#| label: setup
+#| include: false
+
+library(readr)
+
+# gt makes nicer HTML tables; fall back to knitr::kable if it isn't installed.
+has_gt <- requireNamespace("gt", quietly = TRUE)
+
+cv_table <- function(path, col_labels) {
+  df <- readr::read_csv(path, show_col_types = FALSE)
+  names(df) <- col_labels
+  if (has_gt) {
+    gt::gt(df) |>
+      gt::tab_options(
+        table.width = gt::pct(100),
+        table.font.size = gt::pct(95),
+        column_labels.font.weight = "bold",
+        table.border.top.style = "none",
+        data_row.padding = gt::px(6)
+      )
+  } else {
+    knitr::kable(df)
+  }
+}
+```
+
+## Positions
+
+```{r}
+#| label: positions
+#| echo: false
+
+cv_table(
+  "cv_data/positions.csv",
+  c("From", "To", "Position", "Institution", "Description")
+)
+```
+
+## Education
+
+```{r}
+#| label: education
+#| echo: false
+
+cv_table(
+  "cv_data/education.csv",
+  c("From", "To", "Degree", "Institution", "Notes")
+)
+```
+
+## Selected Talks
+
+Pulled from `cv_data/talks.csv`, the same source as the Talks & Teaching pages — so
+entries only need to be typed once.
+
+```{r}
+#| label: talks
+#| echo: false
+
+cv_table(
+  "cv_data/talks.csv",
+  c("Date", "Venue", "Title", "Type")
+)
+```

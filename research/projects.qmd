@@ -1,0 +1,13 @@
+---
+title: "Past Projects & Theses"
+---
+
+<!-- PLACEHOLDER: one row per thesis/project -->
+
+| Title | Level | Status | Link |
+|---|---|---|---|
+| [PLACEHOLDER: project or thesis title] | [PLACEHOLDER: e.g. Master's thesis] | [PLACEHOLDER: e.g. available upon request] | [PDF](#) |
+| [PLACEHOLDER: project or thesis title] | [PLACEHOLDER: e.g. Bachelor's thesis] | [PLACEHOLDER: e.g. published] | — |
+| [PLACEHOLDER: project or thesis title] | [PLACEHOLDER: e.g. term paper] | [PLACEHOLDER: e.g. in progress] | — |
+
+: Projects and theses {tbl-colwidths="[40,20,25,15]"}

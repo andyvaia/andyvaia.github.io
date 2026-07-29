@@ -1,0 +1,45 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "[YOUR NAME]"
+  description: "Academic website"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Bio
+      - text: Research
+        menu:
+          - href: research/data.qmd
+            text: Data
+          - href: research/projects.qmd
+            text: Past Projects & Theses
+          - href: research/future.qmd
+            text: Future Research Ideas
+      - href: publications.qmd
+        text: Publications
+      - text: Talks & Teaching
+        menu:
+          - href: talks/teaching.qmd
+            text: Teaching (TA)
+          - href: talks/seminars.qmd
+            text: Seminars
+          - href: talks/conferences.qmd
+            text: Conferences
+      - href: cv.qmd
+        text: CV
+      - href: noice/index.qmd
+        text: Noice
+    right:
+      - icon: envelope
+        href: "mailto:[YOUR EMAIL]"
+      - icon: github
+        href: "https://github.com/[YOUR HANDLE]"
+
+format:
+  html:
+    theme: litera
+    css: styles.css
+    toc: false
+    page-layout: full

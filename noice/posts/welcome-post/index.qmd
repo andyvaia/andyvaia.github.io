@@ -1,0 +1,12 @@
+---
+title: "[PLACEHOLDER: first post title]"
+date: 2026-07-30
+author: "[YOUR NAME]"
+description: "[PLACEHOLDER: one-line summary shown on the blog listing page]"
+categories: [PLACEHOLDER]
+---
+
+<!-- PLACEHOLDER: first blog post content -->
+
+[PLACEHOLDER: write the first post here. Standard Quarto markdown works, including R or
+Python code chunks if you want to show plots.]

@@ -1,0 +1,11 @@
+---
+title: "Conferences"
+---
+
+<!-- PLACEHOLDER: one row per conference presentation -->
+
+| Date | Course/Venue | Title/Topic |
+|---|---|---|
+| [PLACEHOLDER: e.g. June 2025] | [PLACEHOLDER: conference name, location] | [PLACEHOLDER: talk or poster title] |
+
+: Conference presentations {tbl-colwidths="[20,40,40]"}

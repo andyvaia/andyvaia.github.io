@@ -1,0 +1,32 @@
+---
+title: "[YOUR NAME]"
+subtitle: "[PLACEHOLDER: current affiliations — e.g. PhD Candidate, Department, University]"
+---
+
+<!-- PLACEHOLDER: replace images/profile.jpg with a real photo (keep the same filename,
+     or update the path here) -->
+
+![](images/profile.jpg){width="220" fig-alt="[PLACEHOLDER: profile photo]"}
+
+<!-- PLACEHOLDER: Bio paragraph — research areas, affiliations, personal touch -->
+
+[PLACEHOLDER: Bio paragraph. A few sentences on what you work on, where you work on it,
+and one human detail. Replace this whole block.]
+
+## Contact & Links
+
+<!-- PLACEHOLDER: fill in real addresses / profile URLs; delete any line you don't use -->
+
+- **Email:** [\[YOUR EMAIL\]](mailto:[YOUR EMAIL])
+- **ORCID:** [\[PLACEHOLDER: ORCID iD\]](#)
+- **Google Scholar:** [\[PLACEHOLDER: Google Scholar profile\]](#)
+- **GitHub:** [\[YOUR HANDLE\]](https://github.com/[YOUR%20HANDLE])
+- **[PLACEHOLDER: other link — Bluesky / LinkedIn / Mastodon]:** [\[PLACEHOLDER\]](#)
+
+## Statistical Projects I Love
+
+<!-- PLACEHOLDER: links + short blurb for each project -->
+
+- [\[PLACEHOLDER: project name\]](#) — [PLACEHOLDER: one line on why it's worth a look.]
+- [\[PLACEHOLDER: project name\]](#) — [PLACEHOLDER: one line on why it's worth a look.]
+- [\[PLACEHOLDER: project name\]](#) — [PLACEHOLDER: one line on why it's worth a look.]

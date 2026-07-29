@@ -1,0 +1,11 @@
+---
+title: "Seminars"
+---
+
+<!-- PLACEHOLDER: one row per seminar talk -->
+
+| Date | Course/Venue | Title/Topic |
+|---|---|---|
+| [PLACEHOLDER: e.g. March 2025] | [PLACEHOLDER: seminar series, department, institution] | [PLACEHOLDER: talk title] |
+
+: Seminars {tbl-colwidths="[20,40,40]"}
