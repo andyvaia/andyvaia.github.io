@@ -5,11 +5,15 @@ Open `academic-website.Rproj` in RStudio to work on it.
 
 ## Filling in content
 
-Every spot that needs real content is marked with `PLACEHOLDER`. To find them all:
+Content spots are marked `PLACEHOLDER`; personal details are marked `[YOUR NAME]`,
+`[YOUR EMAIL]`, `[YOUR HANDLE]`. To find all of them:
 
 ```bash
-grep -rn PLACEHOLDER . --exclude-dir=_site --exclude-dir=.quarto
+grep -rnE "PLACEHOLDER|\[YOUR " --include="*.qmd" --include="*.csv" --include="*.yml" .
 ```
+
+Don't miss `_quarto.yml` — the site title and the two navbar icons (email, GitHub) have
+`[YOUR ...]` slots there, and they won't turn up in a search for `PLACEHOLDER` alone.
 
 Also replace `images/profile.jpg` with a real photo (keep the filename, or update the
 path in `index.qmd`).
