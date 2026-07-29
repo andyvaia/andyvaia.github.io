@@ -1,7 +1,18 @@
 # Academic website
 
-A [Quarto](https://quarto.org) website (litera theme), managed as an RStudio project.
+A [Quarto](https://quarto.org) website, managed as an RStudio project.
 Open `academic-website.Rproj` in RStudio to work on it.
+
+## Look & feel
+
+The theme is a custom Sass file, `editorial.scss`: Playfair Display serif headings over a
+Source Sans 3 body, deep burgundy (`#7b2d26`) accent, white navbar with an accent rule
+beneath it. Both fonts load from Google Fonts. To change the accent colour or the
+typefaces, edit the variables in the `scss:defaults` block at the top of that file.
+
+Talks, teaching and past projects use `.entry` blocks (styled in `styles.css`) rather than
+tables — a bold title line followed by a muted detail line. To add an entry, copy an
+existing `::: {.entry} ... :::` block.
 
 ## Filling in content
 

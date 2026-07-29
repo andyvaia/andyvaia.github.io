@@ -1,2 +1,33 @@
-/* Custom styling layered on top of the litera theme.
-   Kept intentionally minimal — add overrides here only if litera needs a small tweak. */
+/* Custom styling layered on top of the Quarto theme.
+   Kept minimal — these rules use Bootstrap variables so they follow whatever theme
+   is set in _quarto.yml. */
+
+/* Entry blocks: used for talks, teaching and projects instead of tables.
+   Each entry is a title line followed by a muted detail line. */
+.entry {
+  padding-left: 1rem;
+  border-left: 2px solid var(--bs-border-color, #dee2e6);
+  margin-bottom: 1.5rem;
+}
+
+.entry p {
+  margin-bottom: 0.25rem;
+}
+
+/* The last paragraph of an entry is the metadata line (venue, date, status). */
+.entry p:last-child {
+  margin-bottom: 0;
+  font-size: 0.9rem;
+  color: var(--bs-secondary-color, #6c757d);
+}
+
+/* Year / section headings above a run of entries. */
+.entry-group {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--bs-secondary-color, #6c757d);
+}

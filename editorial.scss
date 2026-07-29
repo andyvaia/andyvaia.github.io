@@ -1,0 +1,60 @@
+/*-- scss:defaults --*/
+// "Editorial" — bold serif display headings, deep burgundy accent, quiet white chrome.
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap');
+
+$primary:    #7b2d26;
+$body-color: #22201f;
+$link-color: #7b2d26;
+
+$font-family-sans-serif: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+$headings-font-family:   "Playfair Display", Georgia, serif;
+$headings-font-weight:   700;
+
+$font-size-root:   17px;
+$line-height-base: 1.65;
+
+// Quiet white navbar — the accent comes from the rule underneath it, not a colour block.
+$navbar-bg:          #ffffff;
+$navbar-fg:          #22201f;
+$navbar-hl:          $primary;
+$navbar-brand-font-family: "Playfair Display", Georgia, serif;
+
+/*-- scss:rules --*/
+h1, .h1 {
+  letter-spacing: -0.015em;
+  margin-bottom: 0.25rem;
+}
+
+h2, .h2 {
+  font-size: 1.55rem;
+  margin-top: 2.5rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.navbar {
+  border-bottom: 2px solid $primary;
+  box-shadow: none;
+}
+
+.navbar-brand {
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  letter-spacing: -0.01em;
+}
+
+.navbar-nav .nav-link {
+  font-size: 0.94rem;
+  letter-spacing: 0.02em;
+}
+
+.subtitle {
+  font-style: italic;
+  color: #6b6360;
+}
+
+// Profile photo: soft edges rather than a hard rectangle.
+p > img {
+  border-radius: 3px;
+}

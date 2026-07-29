@@ -2,10 +2,27 @@
 title: "Conferences"
 ---
 
-<!-- PLACEHOLDER: one row per conference presentation -->
+<!-- PLACEHOLDER: one .entry block per presentation. Group them under year headings and
+     keep the most recent first. Copy an entry block to add another. -->
 
-| Date | Course/Venue | Title/Topic |
-|---|---|---|
-| [PLACEHOLDER: e.g. June 2025] | [PLACEHOLDER: conference name, location] | [PLACEHOLDER: talk or poster title] |
+[[PLACEHOLDER: year]]{.entry-group}
 
-: Conference presentations {tbl-colwidths="[20,40,40]"}
+::: {.entry}
+**[PLACEHOLDER: talk or poster title]**
+
+[PLACEHOLDER: conference name], [PLACEHOLDER: location] · [PLACEHOLDER: month] · [PLACEHOLDER: contributed talk / invited talk / poster]
+:::
+
+::: {.entry}
+**[PLACEHOLDER: talk or poster title]**
+
+[PLACEHOLDER: conference name], [PLACEHOLDER: location] · [PLACEHOLDER: month] · [PLACEHOLDER: contributed talk / invited talk / poster]
+:::
+
+[[PLACEHOLDER: earlier year]]{.entry-group}
+
+::: {.entry}
+**[PLACEHOLDER: talk or poster title]**
+
+[PLACEHOLDER: conference name], [PLACEHOLDER: location] · [PLACEHOLDER: month] · [PLACEHOLDER: contributed talk / invited talk / poster]
+:::

@@ -2,10 +2,29 @@
 title: "Teaching (TA)"
 ---
 
-<!-- PLACEHOLDER: one row per course you've taught or assisted -->
+<!-- PLACEHOLDER: one .entry block per course. Group them under academic-year headings and
+     keep the most recent first. Copy an entry block to add another. -->
 
-| Date | Course/Venue | Title/Topic |
-|---|---|---|
-| [PLACEHOLDER: e.g. Spring 2025] | [PLACEHOLDER: course code and name, institution] | [PLACEHOLDER: your role / topics covered] |
+[[PLACEHOLDER: academic year]]{.entry-group}
 
-: Teaching {tbl-colwidths="[20,40,40]"}
+::: {.entry}
+**[PLACEHOLDER: course code and name]**
+
+[PLACEHOLDER: degree programme, institution] · [PLACEHOLDER: term] · [PLACEHOLDER: your role, e.g. teaching assistant]
+
+[PLACEHOLDER: optional — one line on what you covered (lab sessions, R tutorials, grading).]
+:::
+
+::: {.entry}
+**[PLACEHOLDER: course code and name]**
+
+[PLACEHOLDER: degree programme, institution] · [PLACEHOLDER: term] · [PLACEHOLDER: your role]
+:::
+
+[[PLACEHOLDER: earlier academic year]]{.entry-group}
+
+::: {.entry}
+**[PLACEHOLDER: course code and name]**
+
+[PLACEHOLDER: degree programme, institution] · [PLACEHOLDER: term] · [PLACEHOLDER: your role]
+:::

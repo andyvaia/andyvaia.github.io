@@ -1,32 +1,24 @@
 ---
-title: "[YOUR NAME]"
-subtitle: "[PLACEHOLDER: current affiliations — e.g. PhD Candidate, Department, University]"
+title: "Andrea Vaiano"
+subtitle: "PhD Candidate, Department of Statistical Sciences, Sapienza University of Rome"
 ---
 
-<!-- PLACEHOLDER: replace images/profile.jpg with a real photo (keep the same filename,
-     or update the path here) -->
+![](images/profile.jpg){width="220" fig-alt="Andrea Vaiano"}
 
-![](images/profile.jpg){width="220" fig-alt="[PLACEHOLDER: profile photo]"}
+When not on a tennis court, you will find me researching quantitative models for inequality and income mobility (@ Sapienza University). I am also working on a groundbreaking project investigating social determinants of health for patients with liver disease @ Istituto superiore di Sanità. I focus mainly on latent variables models. In addition to my main research topics, I have also explored applications to Bayesian statistics, sports analytics and phylogenetics.
 
-<!-- PLACEHOLDER: Bio paragraph — research areas, affiliations, personal touch -->
+## Statistical projects I love and support
 
-[PLACEHOLDER: Bio paragraph. A few sentences on what you work on, where you work on it,
-and one human detail. Replace this whole block.]
+- [Tennisabstract](https://www.tennisabstract.com/) — A whole new statistical look at tennis
+- [Ourworldindata](https://ourworldindata.org/) — Data to support meaningful change
+- [Institute of Mathematical Statistics | XL Files](https://imstat.org/category/xl-files/) — Statistics meets philosophy, epistemology and the great questions worth asking
+- [Fooled by randomness | Fat tails](https://www.fooledbyrandomness.com/FatTails.html/) — How uncertainty rules the world, or "Doing Statistics Under Fat Tails"
 
 ## Contact & Links
 
-<!-- PLACEHOLDER: fill in real addresses / profile URLs; delete any line you don't use -->
+<!-- PLACEHOLDER: add your GitHub handle (also in _quarto.yml navbar); add Google Scholar
+     or other links if you want them -->
 
-- **Email:** [\[YOUR EMAIL\]](mailto:[YOUR EMAIL])
-- **ORCID:** [\[PLACEHOLDER: ORCID iD\]](#)
-- **Google Scholar:** [\[PLACEHOLDER: Google Scholar profile\]](#)
+- **Email:** [andrea.vaiano@uniroma1.it](mailto:andrea.vaiano@uniroma1.it)
+- **ORCID:** [0009-0006-1511-3683](https://orcid.org/0009-0006-1511-3683)
 - **GitHub:** [\[YOUR HANDLE\]](https://github.com/[YOUR%20HANDLE])
-- **[PLACEHOLDER: other link — Bluesky / LinkedIn / Mastodon]:** [\[PLACEHOLDER\]](#)
-
-## Statistical Projects I Love
-
-<!-- PLACEHOLDER: links + short blurb for each project -->
-
-- [\[PLACEHOLDER: project name\]](#) — [PLACEHOLDER: one line on why it's worth a look.]
-- [\[PLACEHOLDER: project name\]](#) — [PLACEHOLDER: one line on why it's worth a look.]
-- [\[PLACEHOLDER: project name\]](#) — [PLACEHOLDER: one line on why it's worth a look.]

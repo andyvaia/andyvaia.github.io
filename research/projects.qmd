@@ -2,12 +2,29 @@
 title: "Past Projects & Theses"
 ---
 
-<!-- PLACEHOLDER: one row per thesis/project -->
+<!-- PLACEHOLDER: one .entry block per project or thesis, most recent first. Copy a block
+     to add another. Drop the link line if there's nothing to link to. -->
 
-| Title | Level | Status | Link |
-|---|---|---|---|
-| [PLACEHOLDER: project or thesis title] | [PLACEHOLDER: e.g. Master's thesis] | [PLACEHOLDER: e.g. available upon request] | [PDF](#) |
-| [PLACEHOLDER: project or thesis title] | [PLACEHOLDER: e.g. Bachelor's thesis] | [PLACEHOLDER: e.g. published] | — |
-| [PLACEHOLDER: project or thesis title] | [PLACEHOLDER: e.g. term paper] | [PLACEHOLDER: e.g. in progress] | — |
+::: {.entry}
+**[PLACEHOLDER: project or thesis title]**
 
-: Projects and theses {tbl-colwidths="[40,20,25,15]"}
+[PLACEHOLDER: level, e.g. Master's thesis] · [PLACEHOLDER: institution] · [PLACEHOLDER: year] · [PLACEHOLDER: status, e.g. available upon request]
+
+[PLACEHOLDER: one or two lines on the question and the method.] [\[PDF\]](#)
+:::
+
+::: {.entry}
+**[PLACEHOLDER: project or thesis title]**
+
+[PLACEHOLDER: level, e.g. Bachelor's thesis] · [PLACEHOLDER: institution] · [PLACEHOLDER: year] · [PLACEHOLDER: status]
+
+[PLACEHOLDER: one or two lines on the question and the method.]
+:::
+
+::: {.entry}
+**[PLACEHOLDER: project or thesis title]**
+
+[PLACEHOLDER: level, e.g. term paper] · [PLACEHOLDER: institution] · [PLACEHOLDER: year] · [PLACEHOLDER: status]
+
+[PLACEHOLDER: one or two lines on the question and the method.]
+:::

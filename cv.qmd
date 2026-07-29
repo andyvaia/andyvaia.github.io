@@ -29,6 +29,8 @@ cv_table <- function(path, col_labels) {
       gt::tab_options(
         table.width = gt::pct(100),
         table.font.size = gt::pct(95),
+        # Inherit the site's body font (set in editorial.scss) instead of gt's default.
+        table.font.names = c("Source Sans 3", "system-ui", "sans-serif"),
         column_labels.font.weight = "bold",
         table.border.top.style = "none",
         data_row.padding = gt::px(6)

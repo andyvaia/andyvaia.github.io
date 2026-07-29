@@ -2,10 +2,27 @@
 title: "Seminars"
 ---
 
-<!-- PLACEHOLDER: one row per seminar talk -->
+<!-- PLACEHOLDER: one .entry block per seminar. Group them under year headings and keep
+     the most recent first. Copy an entry block to add another. -->
 
-| Date | Course/Venue | Title/Topic |
-|---|---|---|
-| [PLACEHOLDER: e.g. March 2025] | [PLACEHOLDER: seminar series, department, institution] | [PLACEHOLDER: talk title] |
+[[PLACEHOLDER: year]]{.entry-group}
 
-: Seminars {tbl-colwidths="[20,40,40]"}
+::: {.entry}
+**[PLACEHOLDER: talk title]**
+
+[PLACEHOLDER: seminar series], [PLACEHOLDER: department, institution] · [PLACEHOLDER: month]
+:::
+
+::: {.entry}
+**[PLACEHOLDER: talk title]**
+
+[PLACEHOLDER: seminar series], [PLACEHOLDER: department, institution] · [PLACEHOLDER: month]
+:::
+
+[[PLACEHOLDER: earlier year]]{.entry-group}
+
+::: {.entry}
+**[PLACEHOLDER: talk title]**
+
+[PLACEHOLDER: seminar series], [PLACEHOLDER: department, institution] · [PLACEHOLDER: month]
+:::
