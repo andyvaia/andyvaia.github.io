@@ -34,7 +34,7 @@ path in `index.qmd`).
 | Path | Purpose |
 |---|---|
 | `index.qmd` | Bio, contact links, "Statistical Projects I Love" |
-| `research/` | Data, past projects & theses, future research ideas |
+| `research.qmd` | Single page: Data, Past Projects & Theses, Future Research Ideas |
 | `publications.qmd` | Hand-maintained publications table |
 | `talks/` | Teaching (TA), seminars, conferences |
 | `cv.qmd` | CV rendered from the CSVs in `cv_data/` |

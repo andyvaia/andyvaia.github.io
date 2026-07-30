@@ -5,24 +5,30 @@ title: "Conferences"
 <!-- PLACEHOLDER: one .entry block per presentation. Group them under year headings and
      keep the most recent first. Copy an entry block to add another. -->
 
-[[PLACEHOLDER: year]]{.entry-group}
+[Upcoming]{.entry-group}
 
 ::: {.entry}
-**[PLACEHOLDER: talk or poster title]**
+**When low social status meets liver disease, outcomes are worse: evidence from the Italian cohorts**
 
-[PLACEHOLDER: conference name], [PLACEHOLDER: location] · [PLACEHOLDER: month] · [PLACEHOLDER: contributed talk / invited talk / poster]
+19th European Public Health Conference, Bilbao (Spain) · November · poster
 :::
 
 ::: {.entry}
-**[PLACEHOLDER: talk or poster title]**
+**Did we sow the seeds of growth? Evaluating the impact of European structural funds with a distributional approach**
 
-[PLACEHOLDER: conference name], [PLACEHOLDER: location] · [PLACEHOLDER: month] · [PLACEHOLDER: contributed talk / invited talk / poster]
+2nd AUEB Statistical Data Science & Economics Conference, Aegina (Greece) · August · invited talk
 :::
 
-[[PLACEHOLDER: earlier year]]{.entry-group}
+[2026]{.entry-group}
 
 ::: {.entry}
-**[PLACEHOLDER: talk or poster title]**
+**From the land of Gatsbys to the paradise of Matthews: multigenerational mobility and the erosion of an American dream**
 
-[PLACEHOLDER: conference name], [PLACEHOLDER: location] · [PLACEHOLDER: month] · [PLACEHOLDER: contributed talk / invited talk / poster]
+Mathematics Applied to Society: Early Scholars (MASES) Meeting, Sapienza Università di Roma · July · invited talk
+:::
+
+::: {.entry}
+**Social Determinants of Health: preliminary findings**
+
+Alleanze territoriali e multidisciplinari per la lotta alle epatiti virali e alle malattie epatiche non trasmissibili: esperienze a confronto, Istituto Superiore di Sanità · March · invited talk
 :::

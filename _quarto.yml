@@ -9,14 +9,8 @@ website:
     left:
       - href: index.qmd
         text: Bio
-      - text: Research
-        menu:
-          - href: research/data.qmd
-            text: Data
-          - href: research/projects.qmd
-            text: Past Projects & Theses
-          - href: research/future.qmd
-            text: Future Research Ideas
+      - href: research.qmd
+        text: Research
       - href: publications.qmd
         text: Publications
       - text: Talks & Teaching

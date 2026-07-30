@@ -5,24 +5,18 @@ title: "Seminars"
 <!-- PLACEHOLDER: one .entry block per seminar. Group them under year headings and keep
      the most recent first. Copy an entry block to add another. -->
 
-[[PLACEHOLDER: year]]{.entry-group}
+[2026]{.entry-group}
 
 ::: {.entry}
-**[PLACEHOLDER: talk title]**
+**Data visualization: principi e pratiche**
 
-[PLACEHOLDER: seminar series], [PLACEHOLDER: department, institution] · [PLACEHOLDER: month]
+Seminari di statistica e probabilità, Department of Statistical Sciences, Sapienza University of Rome · May
 :::
+
 
 ::: {.entry}
-**[PLACEHOLDER: talk title]**
+**Modelli per variabili latenti**
 
-[PLACEHOLDER: seminar series], [PLACEHOLDER: department, institution] · [PLACEHOLDER: month]
+Seminari di statistica e probabilità, Department of Statistical Sciences, Sapienza University of Rome · April
 :::
 
-[[PLACEHOLDER: earlier year]]{.entry-group}
-
-::: {.entry}
-**[PLACEHOLDER: talk title]**
-
-[PLACEHOLDER: seminar series], [PLACEHOLDER: department, institution] · [PLACEHOLDER: month]
-:::

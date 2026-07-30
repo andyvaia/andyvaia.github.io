@@ -1,0 +1,83 @@
+---
+title: "Research"
+toc: true
+toc-title: "On this page"
+---
+
+## Data
+
+Datasets I've worked with — feel free to reach out if you want to chat about any of these.
+
+- **Panel Study of Income Dynamics (PSID)** — The longest running panel in the world, conducted since 1968. Topics include employment, income, wealth, health, marriage, child development and education. Currently, more than 9100 families are followed, spanning as many as seven generations. [psidonline.isr.umich.edu](https://psidonline.isr.umich.edu/default.aspx)
+
+- **EU Statistics on Income and Living Conditions (EU-SILC)** — Survey data on social and material deprivation in the European Union. Topics include income, poverty, social exclusion, and living conditions; both cross-sectional and longitudinal data are available. Special modules are also issued to investigate extraordinary events. [ec.europa.eu/eurostat](https://ec.europa.eu/eurostat/web/microdata/collections-research/european-union-statistics-on-income-and-living-conditions)
+
+- **OpenCohesion data** — EU platform for Cohesion Policy data. Information on budget allocation and expenditure sustained under different funding programs is available for policy monitoring and analysis of investments. [cohesiondata.ec.europa.eu](https://cohesiondata.ec.europa.eu/)
+
+- **National Family Health Survey (NFHS) - India** — Nationally representative data on population, health and nutrition in India, providing crucial guidance towards informed policy choices. [nfhsiips.in](https://www.nfhsiips.in/nfhsuser/index.php)
+
+## Past Projects & Theses
+
+<!-- One .entry block per project or thesis, most recent first. Copy a block to add another. -->
+
+::: {.entry}
+**Assessing the European "convergence machine": The empirics of regional economic growth**
+
+Master's thesis · Sapienza University of Rome · 2024 · available upon request
+
+Internal cohesion of EU regions has been a central target of the development policies implemented by the Community. We employ finite Gaussian mixture models to explore the evolution of income distribution across forty years. The main goal is to assess changes of shape in the distribution and provide a dynamic classification of regions into sub-populations with discernible socioeconomic and geographical characteristics. We conclude that a process of catching up has been in place, manifested by the disappearance of a consistently poor group of regions and the consequent enlargement of the middle income group. To further investigate mobility of units across components, we propose a Latent Markov Model (LMM) approach to formally model transition in our panel data.
+:::
+
+::: {.entry}
+**Exploring the Sino-Tibetan Family of languages through ContacTrees: a Novel Methodological Approach**
+
+Double degree research project · Université Paris Dauphine - PSL · 2024 · available upon request
+
+The aim of this work was to infer the phylogenetic tree for the family of Sino-Tibetan languages under the newly devised Bayesian model "contacTrees". The analysis enabled to present a new maximum credibility tree for the Sino-Tibetan family, supporting the unprecedented scenario of a Kiranti out-group. Additionally, the tree resulted to be younger than the reference predecessor. The analysis managed to propose new results and evaluate strengths and weaknesses of this new phylogenetic model. The project relied on the BEAST software implementation, uncovering a coding error in the program that resulted in incomplete outputs and leading to the release of a package update.
+:::
+
+::: {.entry}
+**Superstar Paycheck: Stick to Sports**
+
+Term paper · Sapienza University of Rome · 2023 · available upon request
+
+Project work employing a Bayesian learning engine to compare earnings across elite sportspeople. Data were obtained from publicly available sources and were autonomously pre-processed and analysed, exploring patterns and trends. A Bayesian hierarchical normal model was then implemented to describe earnings of athletes in different sports, each representing a sub-population. MCMC simulation allowed to perform diagnostics and posterior analysis of the model parameters, both global and group-specific. Showing posterior predictive intervals, the shrinkage effect and the role of sample size were explained to illustrate the concept of partial pooling in multilevel models. The project has been carried out using R and its add-on JAGS.
+:::
+
+::: {.entry}
+**La lenta marcia della convergenza al benessere: un'analisi statistica delle nuove traiettorie di sviluppo umano**
+
+Bachelor thesis · Sapienza University of Rome · 2022 · available upon request
+
+The thesis featured a theoretical examination of the Human Development Index (HDI), motivated by the belief that well-being is much more than economic growth alone. The development trajectories of different clusters of countries where appraised and compared across four decades, with respect to the three dimensions (life expectancy, per capita income, years of schooling). The composite index was then used as a response variable to assess the neoclassical hypothesis of convergence, implying faster growth for developing countries. The empirical evaluation of the regression model provided mixed results, showing positive trends of convergence, but with very moderate speed. We conclude that an overall process of development has been in place, justified by the global improvement in all aspects and the observed modest convergence.
+:::
+
+::: {.entry}
+**Women empowerment and technology: a case study for rural Uttar Pradesh using the 2015-2016 NFHS for India**
+
+Term paper · University of Southampton · 2021 · available upon request
+
+Project work on the role of technology on women empowerment in the rural state of Uttar Pradesh (India), using survey data. The aim of the study was to explore possible relationships between empowerment (measured by attitude towards wife beating and participation in household decision making), ownership of assets and the use of technological devices. Chi-square tests were employed to explore association between the variables related to the different dimensions of interest. The empirical work was also supported by a qualitative analysis in the form of a semi-structured interview with members from the local community. The results of this quali-quantitative study were presented in a comprehensive written report comprising. The project has been carried out using SPSS.
+:::
+
+::: {.entry}
+**Have you got what it takes? Un'analisi statistica delle prospettive di carriera per i rookies NBA**
+
+Term paper · Sapienza University of Rome · 2021 · available upon request
+
+Project work to predict if rookies would make it in the NBA (response variable: play in the league for more than 5 years). Using a logistic regression model, we selected the relevant covariates, assessed predictive performance of the model and compute the probability of "making it" for simulated players (average, less than average, more than average) and real NBA stars (eg. LeBron, Curry).
+:::
+
+## Future Research Ideas
+
+A running list of directions I'd like to pursue — some half-formed, all open to
+collaboration.
+
+### Sports paper
+
+- Expand on my research project on superstar earnings in sports to build up a concrete contribution to the field using Bayesian multilevel models.
+- Use latent variable models to classify tennis players styles and study the evolution over time
+
+### Verasight and the revolution of hybrid data
+
+Survey data is undergoing a revolution, with hybrid data sitting at its frontier...

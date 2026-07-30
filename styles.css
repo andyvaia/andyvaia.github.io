@@ -14,11 +14,20 @@
   margin-bottom: 0.25rem;
 }
 
-/* The last paragraph of an entry is the metadata line (venue, date, status). */
-.entry p:last-child {
-  margin-bottom: 0;
+/* The second paragraph of an entry is the metadata line (venue, date, status).
+   Anything after it — an abstract or summary — stays normal body text. */
+.entry p:nth-of-type(2) {
   font-size: 0.9rem;
   color: var(--bs-secondary-color, #6c757d);
+}
+
+.entry p:last-child {
+  margin-bottom: 0;
+}
+
+/* Give an abstract a little air after the metadata line. */
+.entry p:nth-of-type(n + 3) {
+  margin-top: 0.6rem;
 }
 
 /* Year / section headings above a run of entries. */
