@@ -37,9 +37,44 @@ path in `index.qmd`).
 | `research.qmd` | Single page: Data, Past Projects & Theses, Future Research Ideas |
 | `publications.qmd` | Hand-maintained publications table |
 | `talks/` | Teaching (TA), seminars, conferences |
-| `cv.qmd` | CV rendered from the CSVs in `cv_data/` |
-| `cv_data/` | `positions.csv`, `education.csv`, `talks.csv` |
+| `cv.qmd` | CV page — generated from the LaTeX CV, see below |
+| `cv_source/` | The LaTeX CV (`.tex` + `bibliocv.bib`) and `build-pdf.sh` |
+| `R/` | `parse_europasscv.R`, the LaTeX-to-website parser |
 | `noice/` | Blog listing + posts under `noice/posts/` |
+
+## The CV
+
+`cv_source/CV_Andrea_Vaiano_no_dati.tex` is the single source of truth. The CV page reads
+it at render time and lays out every section it finds, so updating the CV means editing
+the `.tex` and re-rendering — nothing on the website needs touching.
+
+`R/parse_europasscv.R` reads four macros and ignores everything else:
+
+| Macro | Becomes |
+|---|---|
+| `\ecvsection{Name}` | a section heading |
+| `\ecvtitle{Dates}{Title}` | an entry |
+| `\ecvtitlelevel{Dates}{Title}{Level}` | an entry, level in parentheses |
+| `\ecvitem{}{Text}` | a detail line under the current entry |
+
+Anything commented out with `%` is skipped, so entries you've hidden in the PDF stay off
+the website too. `\textit`, `\textbf`, `` ``quotes" `` and `--` dashes are converted.
+
+If you start using a macro the parser doesn't know, its content simply won't appear —
+check the page after adding one. A section whose entries all use unknown macros is
+dropped entirely (this is what happens to Personal skills, which uses the language
+macros).
+
+To rebuild the downloadable PDF from the same source:
+
+```bash
+./cv_source/build-pdf.sh
+```
+
+That runs pdflatex → biber → pdflatex twice and copies the result to `cv.pdf` at the
+project root, which is what the page's "Download PDF" button links to. LaTeX build
+artefacts in `cv_source/` are gitignored; `cv.pdf` is committed so the published site
+always has one.
 
 ## Preview locally
 
@@ -53,7 +88,7 @@ If `quarto` isn't on your PATH, the RStudio-bundled copy works:
 ## Publishing
 
 Deployed to [Quarto Pub](https://quartopub.com). Future updates are just:
-edit the `.qmd` / `.csv` files, then
+edit the `.qmd` / `.tex` files, then
 
 ```bash
 quarto publish quartopub
@@ -65,8 +100,9 @@ publishes update the same site rather than creating a new one.
 
 ## Requirements
 
-The CV page renders through R, so it needs R plus the `readr` and `gt` packages
-(`install.packages(c("readr", "gt"))`). Without `gt` it falls back to `knitr::kable`.
+The CV page runs an R chunk to parse the `.tex`, so rendering the site needs R — but only
+base R, no packages. Rebuilding `cv.pdf` additionally needs a LaTeX distribution with the
+`europasscv` class and `biber` (both present in TeX Live 2024).
 
 ## Notes
 

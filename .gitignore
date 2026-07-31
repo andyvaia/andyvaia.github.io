@@ -8,3 +8,13 @@ _site/
 
 /.quarto/
 **/*.quarto_ipynb
+
+# LaTeX build artefacts from cv_source/build-pdf.sh
+cv_source/*.aux
+cv_source/*.bbl
+cv_source/*.bcf
+cv_source/*.blg
+cv_source/*.log
+cv_source/*.out
+cv_source/*.run.xml
+cv_source/*.pdf

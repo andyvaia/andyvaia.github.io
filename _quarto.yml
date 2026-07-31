@@ -23,13 +23,11 @@ website:
             text: Conferences
       - href: cv.qmd
         text: CV
-      - href: noice/index.qmd
-        text: Noice - my blog
+      # - href: noice/index.qmd
+      #   text: Noice - my blog
     right:
       - icon: envelope
         href: "mailto:andrea.vaiano@uniroma1.it"
-      - icon: github
-        href: "https://github.com/[YOUR HANDLE]"
 
 format:
   html:
