@@ -35,6 +35,13 @@ website:
       - icon: envelope
         href: "mailto:andrea.vaiano@uniroma1.it"
 
+  page-footer:
+    left: "© Andrea Vaiano"
+    right: >-
+      Built with <a href="https://quarto.org">Quarto</a> and
+      <i class="bi bi-heart-fill" aria-hidden="true"></i> in
+      <a href="https://www.r-project.org">R</a>
+
 format:
   html:
     theme: editorial.scss
