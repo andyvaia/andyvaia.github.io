@@ -40,7 +40,8 @@ website:
     right: >-
       Built with <a href="https://quarto.org">Quarto</a> and
       <i class="bi bi-heart-fill" aria-hidden="true"></i> in
-      <a href="https://www.r-project.org">R</a>
+      <a href="https://www.r-project.org"><img src="/images/Rlogo.svg"
+      class="footer-logo" alt="R"></a>
 
 format:
   html:

@@ -44,6 +44,14 @@
   vertical-align: baseline;
 }
 
+/* Official R logo (images/Rlogo.svg, CC-BY-SA 4.0 — see README). */
+.nav-footer .footer-logo {
+  height: 1.3em;
+  width: auto;
+  vertical-align: -0.3em;
+  margin-left: 0.15em;
+}
+
 /* Year / section headings above a run of entries. */
 .entry-group {
   margin-top: 2rem;

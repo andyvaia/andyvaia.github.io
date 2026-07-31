@@ -46,6 +46,14 @@ Nothing on this site is maintained in two places: the CV and the publication lis
 both generated from the files in `cv_source/`, which are the same files that build the
 PDF CV.
 
+### Third-party assets
+
+`images/Rlogo.svg` is the official R logo, from
+[r-project.org](https://www.r-project.org/logo/), © 2016 The R Foundation and used under
+[CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). It appears in the site
+footer, linked back to r-project.org. If you ever remove the footer credit, remove the
+file too.
+
 ## The CV
 
 `cv_source/CV_Andrea_Vaiano_no_dati.tex` is the single source of truth. The CV page reads
