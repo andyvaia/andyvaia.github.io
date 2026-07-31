@@ -2,18 +2,15 @@
 title: "Publications"
 ---
 
-<!-- NOTE: this page is a hand-maintained table. If you later want auto-formatted
-     citations, this page could instead be driven by a references.bib file plus Quarto's
-     citation rendering (see https://quarto.org/docs/authoring/citations.html). Sticking
-     with the plain table for now — simpler to maintain by hand. -->
+```{r}
+#| label: publications
+#| echo: false
+#| output: asis
 
-<!-- PLACEHOLDER: one row per publication — the rows below are fake examples showing the
-     intended format. Delete them once you add real entries. -->
+source("R/parse_bib.R")
 
-| Title | Authors | Venue | Year | Links |
-|---|---|---|---|---|
-| [PLACEHOLDER: paper title] | [PLACEHOLDER: authors] | [PLACEHOLDER: journal/conference] | [PLACEHOLDER: year] | [PDF](#) / [DOI](#) / [Code](#) |
-| [PLACEHOLDER: paper title] | [PLACEHOLDER: authors] | [PLACEHOLDER: journal/conference] | [PLACEHOLDER: year] | [PDF](#) / [DOI](#) |
-| [PLACEHOLDER: paper title] | [PLACEHOLDER: authors] | [PLACEHOLDER: working paper] | [PLACEHOLDER: year] | [PDF](#) |
-
-: Publications {tbl-colwidths="[30,20,20,10,20]"}
+# cv_source/bibliocv.bib is the same file the LaTeX CV cites, so adding a paper there
+# updates both the PDF and this page.
+entries <- parse_bib("cv_source/bibliocv.bib")
+cat(render_publications(entries, highlight = "Vaiano"))
+```

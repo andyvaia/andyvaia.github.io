@@ -10,11 +10,19 @@ toc-title: "On this page"
 
 source("R/parse_europasscv.R")
 cv_tex <- "cv_source/CV_Andrea_Vaiano_no_dati.tex"
+
+# Sections present in the .tex but not shown here, because they have their own page.
+# To bring one back, delete it from this vector — nothing else needs changing. To hide
+# another, add its \ecvsection name exactly as written in the .tex.
+skip_sections <- c("Conferences and Seminars")
+
 sections <- parse_europasscv(cv_tex)
+sections <- Filter(function(s) !(s$name %in% skip_sections), sections)
 ```
 
 This page is generated from `` `r cv_tex` `` — the same LaTeX source as the PDF. To update
-it, edit the `.tex` and re-render the site.
+it, edit the `.tex` and re-render the site. Conferences and seminars have their own
+[page](talks/conferences.qmd).
 
 [Download PDF](cv.pdf){.btn .btn-outline-secondary .btn-sm role="button"}
 

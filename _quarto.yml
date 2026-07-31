@@ -1,6 +1,12 @@
 project:
   type: website
   output-dir: _site
+  # The blog is on hold: noice/ stays in the repo but is not built or published.
+  # To bring it back, delete the "!noice/**" line below and uncomment the navbar
+  # entry further down.
+  render:
+    - "**/*.qmd"
+    - "!noice/**"
 
 website:
   title: "Andrea Vaiano"

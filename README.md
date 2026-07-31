@@ -35,12 +35,16 @@ path in `index.qmd`).
 |---|---|
 | `index.qmd` | Bio, contact links, "Statistical Projects I Love" |
 | `research.qmd` | Single page: Data, Past Projects & Theses, Future Research Ideas |
-| `publications.qmd` | Hand-maintained publications table |
+| `publications.qmd` | Generated from `cv_source/bibliocv.bib`, see below |
 | `talks/` | Teaching (TA), seminars, conferences |
 | `cv.qmd` | CV page — generated from the LaTeX CV, see below |
 | `cv_source/` | The LaTeX CV (`.tex` + `bibliocv.bib`) and `build-pdf.sh` |
-| `R/` | `parse_europasscv.R`, the LaTeX-to-website parser |
-| `noice/` | Blog listing + posts under `noice/posts/` |
+| `R/` | `parse_europasscv.R` and `parse_bib.R`, the two parsers |
+| `noice/` | Blog — currently on hold, see below |
+
+Nothing on this site is maintained in two places: the CV and the publication list are
+both generated from the files in `cv_source/`, which are the same files that build the
+PDF CV.
 
 ## The CV
 
@@ -76,6 +80,45 @@ project root, which is what the page's "Download PDF" button links to. LaTeX bui
 artefacts in `cv_source/` are gitignored; `cv.pdf` is committed so the published site
 always has one.
 
+### Hiding a CV section from the website
+
+Some sections are better served by their own page. `cv.qmd` has a `skip_sections` vector
+near the top:
+
+```r
+skip_sections <- c("Conferences and Seminars")
+```
+
+Names must match the `\ecvsection{...}` text exactly. Remove a name to bring the section
+back; add one to hide it. The `.tex` is untouched either way, so the PDF still has
+everything.
+
+## Publications
+
+`publications.qmd` is generated from `cv_source/bibliocv.bib` — the same file the LaTeX
+CV cites. Add a BibTeX entry there and it appears on both the PDF and the website.
+
+`R/parse_bib.R` groups entries by year, newest first, formats authors as initials plus
+surname with `Vaiano` in bold, and links the `doi` field when present. It understands
+`@article` (journal, volume, number, pages) and `@techreport` (series, number); anything
+else falls back to `booktitle` / `publisher` / `institution`.
+
+## The blog
+
+`noice/` is on hold. The files are still in the repo but the site does not build or
+publish them, via this line in `_quarto.yml`:
+
+```yaml
+project:
+  render:
+    - "**/*.qmd"
+    - "!noice/**"
+```
+
+To bring the blog back: delete the `"!noice/**"` line and uncomment the two `noice`
+lines in the navbar further down the same file. Nothing else is needed — the listing
+page and the starter post are untouched.
+
 ## Preview locally
 
 ```bash
@@ -106,8 +149,9 @@ base R, no packages. Rebuilding `cv.pdf` additionally needs a LaTeX distribution
 
 ## Notes
 
-- New blog post: create `noice/posts/<slug>/index.qmd` with `title`, `date`, and
-  `author` in the YAML front matter — the listing picks it up automatically.
-- The publications page is a plain markdown table. If you'd rather have auto-formatted
-  citations later, it can be switched to a `references.bib` file plus Quarto's
-  [citation rendering](https://quarto.org/docs/authoring/citations.html).
+- New blog post (once the blog is re-enabled): create `noice/posts/<slug>/index.qmd` with
+  `title`, `date`, and `author` in the YAML front matter — the listing picks it up
+  automatically.
+- Both parsers in `R/` are base R only, so rendering the site never requires installing
+  a package. If you'd rather hand-format citations one day, replace the code chunk in
+  `publications.qmd` with a plain markdown list — nothing else depends on it.
