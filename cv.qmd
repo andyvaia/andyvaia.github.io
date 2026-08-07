@@ -20,9 +20,8 @@ sections <- parse_europasscv(cv_tex)
 sections <- Filter(function(s) !(s$name %in% skip_sections), sections)
 ```
 
-This page is generated from `` `r cv_tex` `` — the same LaTeX source as the PDF. To update
-it, edit the `.tex` and re-render the site. Conferences and seminars have their own
-[page](talks/conferences.qmd).
+<!-- This page is generated from `` `r cv_tex` `` — the same LaTeX source as the PDF. To update it, edit the `.tex` and re-render the site.  -->
+Conferences and seminars have their own [page](talks/conferences.qmd).
 
 [Download PDF](cv.pdf){.btn .btn-outline-secondary .btn-sm role="button"}
 

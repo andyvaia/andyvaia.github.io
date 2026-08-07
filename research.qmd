@@ -76,8 +76,8 @@ collaboration.
 ### Sports paper
 
 - Expand on my research project on superstar earnings in sports to build up a concrete contribution to the field using Bayesian multilevel models.
-- Use latent variable models to classify tennis players styles and study the evolution over time
+- Use latent variable models to classify tennis players styles; explore if and how styles have been changing over time.
 
 ### Verasight and the revolution of hybrid data
 
-Survey data is undergoing a revolution, with hybrid data sitting at its frontier...
+Survey data is undergoing a revolution, with hybrid data sitting at its frontier. What challenges await us?
