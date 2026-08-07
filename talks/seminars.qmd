@@ -10,13 +10,13 @@ title: "Seminars"
 ::: {.entry}
 **Data visualization: principi e pratiche**
 
-Seminari di statistica e probabilità, Department of Statistical Sciences, Sapienza University of Rome · May
+[Seminari di statistica e probabilità](https://sites.google.com/uniroma1.it/statprob/home), Department of Statistical Sciences, Sapienza University of Rome · May
 :::
 
 
 ::: {.entry}
 **Modelli per variabili latenti**
 
-Seminari di statistica e probabilità, Department of Statistical Sciences, Sapienza University of Rome · April
+[Seminari di statistica e probabilità](https://sites.google.com/uniroma1.it/statprob/home), Department of Statistical Sciences, Sapienza University of Rome · April
 :::
 

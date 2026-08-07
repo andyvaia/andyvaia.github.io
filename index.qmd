@@ -5,7 +5,7 @@ subtitle: "PhD Candidate, Department of Statistical Sciences, Sapienza Universit
 
 ![](images/profile.jpg){width="220" fig-alt="Andrea Vaiano"}
 
-When not on a tennis court, you will find me researching quantitative models for inequality and income mobility (@Sapienza University). I am also working on a groundbreaking project to investigate the impact of Social Determinants of Health (SDoH) on patients with liver disease (@Istituto superiore di Sanità). I focus mainly on latent variables models and generalized linear models. In addition to my main research topics, I have also explored applications to Bayesian statistics, phylogenetics and sports analytics.
+When not on a tennis court, you will find me researching quantitative models for inequality and income mobility (@Sapienza University). I am also working on a groundbreaking project to investigate the impact of Social Determinants of Health (SDoH) on patients with liver disease (@Istituto superiore di Sanità). I focus mainly on statistical models for latent variables (eg. mixtures, Hidden/Latent Markov) and generalized linear models. In addition to my main research topics, I have also explored Bayesian statistics, phylogenetics, the Item Response Theory and Rasch models.
 
 ## Statistical projects I love and support
 

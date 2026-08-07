@@ -73,11 +73,11 @@ Datasets I've worked with — feel free to reach out if you want to chat about a
 A running list of directions I'd like to pursue — some half-formed, all open to
 collaboration.
 
-### Sports paper
+### Sports analytics
 
 - Expand on my research project on superstar earnings in sports to build up a concrete contribution to the field using Bayesian multilevel models.
 - Use latent variable models to classify tennis players styles; explore if and how styles have been changing over time.
 
-### Verasight and the revolution of hybrid data
+### The revolution of hybrid data
 
 Survey data is undergoing a revolution, with hybrid data sitting at its frontier. What challenges await us?
