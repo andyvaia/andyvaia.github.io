@@ -3,6 +3,8 @@
 The source for my personal website, built with [Quarto](https://quarto.org) and R.
 **Live at [andyvaia.github.io](https://andyvaia.github.io)**
 
+[![Publish site](https://github.com/andyvaia/andyvaia.github.io/actions/workflows/publish.yml/badge.svg)](https://github.com/andyvaia/andyvaia.github.io/actions/workflows/publish.yml)
+
 ![The bio page](images/site-preview.png)
 
 I'm a PhD candidate in statistics at Sapienza University of Rome. This repository is
