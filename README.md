@@ -1,8 +1,7 @@
 # Andrea Vaiano — personal academic website
 
 The source for my personal website, built with [Quarto](https://quarto.org) and R.
-**Live at [andreavaiano.github.io](https://andreavaiano.github.io)** *(update this once the
-site is published).*
+**Live at [andyvaia.github.io](https://andyvaia.github.io)**
 
 ![The bio page](images/site-preview.png)
 
