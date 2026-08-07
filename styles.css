@@ -1,0 +1,64 @@
+/* Custom styling layered on top of the Quarto theme.
+   Kept minimal — these rules use Bootstrap variables so they follow whatever theme
+   is set in _quarto.yml. */
+
+/* Entry blocks: used for talks, teaching and projects instead of tables.
+   Each entry is a title line followed by a muted detail line. */
+.entry {
+  padding-left: 1rem;
+  border-left: 2px solid var(--bs-border-color, #dee2e6);
+  margin-bottom: 1.5rem;
+}
+
+.entry p {
+  margin-bottom: 0.25rem;
+}
+
+/* The second paragraph of an entry is the metadata line (venue, date, status).
+   Anything after it — an abstract or summary — stays normal body text. */
+.entry p:nth-of-type(2) {
+  font-size: 0.9rem;
+  color: var(--bs-secondary-color, #6c757d);
+}
+
+.entry p:last-child {
+  margin-bottom: 0;
+}
+
+/* Give the body a little air after the metadata line. Only the first body paragraph
+   gets the gap, so multi-line CV entries stay compact. */
+.entry p:nth-of-type(3) {
+  margin-top: 0.6rem;
+}
+
+/* Site footer: quiet, with the heart picking up the theme accent. */
+.nav-footer {
+  border-top: 1px solid var(--bs-border-color, #dee2e6);
+  font-size: 0.85rem;
+  color: var(--bs-secondary-color, #6c757d);
+}
+
+.nav-footer .bi-heart-fill {
+  color: var(--bs-primary, #7b2d26);
+  font-size: 0.8em;
+  vertical-align: baseline;
+}
+
+/* Official R logo (images/Rlogo.svg, CC-BY-SA 4.0 — see README). */
+.nav-footer .footer-logo {
+  height: 1.3em;
+  width: auto;
+  vertical-align: -0.3em;
+  margin-left: 0.15em;
+}
+
+/* Year / section headings above a run of entries. */
+.entry-group {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--bs-secondary-color, #6c757d);
+}
