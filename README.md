@@ -173,15 +173,27 @@ site config.
 
 ## Publishing
 
-Deployed to GitHub Pages. After the one-time setup below, updates are:
+Deployed to GitHub Pages, automatically. **Push to `main` and the site updates** — there's
+no separate publish step:
 
 ```bash
-quarto publish gh-pages
+git add -A && git commit -m "..." && git push
 ```
 
-That renders locally and pushes the output to the `gh-pages` branch. Rendering happens on
-your machine, so no CI configuration is needed — which matters here, because the site
-runs R at render time.
+`.github/workflows/publish.yml` installs Quarto and R, renders the site, and pushes the
+result to the `gh-pages` branch, which is what GitHub Pages serves. Progress and failures
+show up under the repo's **Actions** tab.
+
+Two things worth knowing if you adapt this:
+
+- The workflow installs `knitr` and `rmarkdown`, because Quarto renders the R chunks in
+  `cv.qmd` and `publications.qmd` through the knitr engine. The parsers themselves are
+  base R, but knitr is not built in.
+- It does **not** install LaTeX. `cv.pdf` is committed to the repo rather than rebuilt in
+  CI, so run `./cv_source/build-pdf.sh` locally and commit the result whenever the CV
+  changes.
+
+You can still publish by hand — `quarto publish gh-pages` — if CI is ever unavailable.
 
 ## Requirements
 
