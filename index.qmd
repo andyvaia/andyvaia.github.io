@@ -16,9 +16,7 @@ When not on a tennis court, you will find me researching quantitative models for
 
 ## Contact & Links
 
-<!-- PLACEHOLDER: add your GitHub handle (also in _quarto.yml navbar); add Google Scholar
-     or other links if you want them -->
-
 - **Email:** [andrea.vaiano@uniroma1.it](mailto:andrea.vaiano@uniroma1.it)
 - **ORCID:** [0009-0006-1511-3683](https://orcid.org/0009-0006-1511-3683)
 - **Linkedin:** [Andrea Vaiano](https://www.linkedin.com/in/andrew-vaiano/)
+- **GitHub:** [andyvaia](https://github.com/andyvaia)

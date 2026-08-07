@@ -34,6 +34,8 @@ website:
     right:
       - icon: envelope
         href: "mailto:andrea.vaiano@uniroma1.it"
+      - icon: github
+        href: "https://github.com/andyvaia"
 
   page-footer:
     left: "© Andrea Vaiano"
