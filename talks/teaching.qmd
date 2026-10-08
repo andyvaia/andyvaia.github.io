@@ -5,13 +5,7 @@ title: "Teaching assistant (TA)"
 <!-- PLACEHOLDER: one .entry block per course. Group them under academic-year headings and
      keep the most recent first. Copy an entry block to add another. -->
 
-[2025/26]{.entry-group}
-
-::: {.entry}
-**Serie storiche e previsioni statistiche**
-
-CdS in Statistica Gestionale (SG), Sapienza University of Rome · Semester II · teaching assistant
-:::
+[2026/27]{.entry-group}
 
 ::: {.entry}
 **Metodi statistici per le analisi di mercato e di opinione**
@@ -25,14 +19,8 @@ CdS in Statistica Gestionale (SG), Sapienza University of Rome · Semester I · 
 CdS in Statistica Gestionale (SG), Sapienza University of Rome · Semester I · teaching assistant
 :::
 
-::: {.entry}
-**Statistica economica II**
 
-CdS in Statistica, Economia, Finanza e Assicurazioni (SEFA), Sapienza University of Rome · Semester I · teaching assistant
-:::
-
-
-[2022--2025]{.entry-group}
+[2022--2026]{.entry-group}
 
 ::: {.entry}
 **Serie storiche e previsioni statistiche**

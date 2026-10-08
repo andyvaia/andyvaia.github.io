@@ -10,25 +10,26 @@ title: "Conferences"
 ::: {.entry}
 **When low social status meets liver disease, outcomes are worse: evidence from the Italian cohorts**
 
-19th European Public Health Conference, Bilbao (Spain) · November · poster
+19th European Public Health Conference, Bilbao (Spain) · November · poster presentation
 :::
 
-::: {.entry}
-**Did we sow the seeds of growth? Evaluating the impact of European structural funds with a distributional approach**
-
-2nd AUEB Statistical Data Science & Economics Conference, Aegina (Greece) · August · invited talk
-:::
 
 [2026]{.entry-group}
 
 ::: {.entry}
+**Did we sow the seeds of growth? Evaluating the impact of European structural funds with a distributional approach**
+
+2nd AUEB Statistical Data Science & Economics Conference, Aegina (Greece) · August · oral presentation
+:::
+
+::: {.entry}
 **From the land of Gatsbys to the paradise of Matthews: multigenerational mobility and the erosion of an American dream**
 
-Mathematics Applied to Society: Early Scholars (MASES) Meeting, Sapienza Università di Roma · July · invited talk
+Mathematics Applied to Society: Early Scholars (MASES) Meeting, Sapienza Università di Roma · July · oral presentation
 :::
 
 ::: {.entry}
 **Social Determinants of Health: preliminary findings**
 
-Alleanze territoriali e multidisciplinari per la lotta alle epatiti virali e alle malattie epatiche non trasmissibili: esperienze a confronto, Istituto Superiore di Sanità · March · invited talk
+Alleanze territoriali e multidisciplinari per la lotta alle epatiti virali e alle malattie epatiche non trasmissibili: esperienze a confronto, Istituto Superiore di Sanità · March · oral presentation
 :::
