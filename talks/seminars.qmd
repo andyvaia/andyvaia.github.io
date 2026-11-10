@@ -8,6 +8,14 @@ title: "Seminars"
 [2026]{.entry-group}
 
 ::: {.entry}
+**R Markdown, Quarto e dintorni: dallo script al report (e oltre)**
+
+[Seminari di statistica e probabilità](https://sites.google.com/uniroma1.it/statprob/home), Department of Statistical Sciences, Sapienza University of Rome · November
+
+[Slides](/slides/rmarkdown-quarto/){target="_blank"} · [Source (.qmd)](/slides/rmarkdown-quarto/seminario.qmd)
+:::
+
+::: {.entry}
 **Data visualization: principi e pratiche**
 
 [Seminari di statistica e probabilità](https://sites.google.com/uniroma1.it/statprob/home), Department of Statistical Sciences, Sapienza University of Rome · May

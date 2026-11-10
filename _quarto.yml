@@ -7,6 +7,10 @@ project:
   render:
     - "**/*.qmd"
     - "!noice/**"
+    - "!slides/**"
+  # Seminar slides, already compiled: copied as-is into _site.
+  resources:
+    - "slides/**"
 
 website:
   title: "Andrea Vaiano"
